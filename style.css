@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff85a2, #85a8ff);
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-size: 5em;
+    font-family: cursive, Consolas, serif;
+    color: cornflowerblue;
+    text-shadow: #333333 2px 2px;
+}
+
+.coming-soon-container {
+    text-align: center;
+}
+
+#countdown p {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(59, 35, 218, 0.89);
+    border-radius: 5px;
+}
